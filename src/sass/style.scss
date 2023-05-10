@@ -1,0 +1,24 @@
+@import "libs/bootstrap-reboot.min";
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;700&display=swap");
+
+@import "base/variables";
+@import "base/mixins";
+
+* {
+	font-family: "Nunito Sans", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+@import "blocks/home";
+@import "blocks/button";
+@import "blocks/media";
+@import "blocks/hamburger";
+@import "blocks/about";

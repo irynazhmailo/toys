@@ -1,0 +1,70 @@
+.home {
+	max-height: 724px;
+	padding: 40px 120px 0 126px;
+	background: $background-color;
+	color: $title-color;
+	&__box {
+		padding-top: 80px;
+		// display: grid;
+		// grid-template-columns: 510px 710px;
+		display: flex;
+		position: relative;
+		flex-direction: row;
+		gap: 50px;
+		margin: auto 50px;
+	}
+	&__text {
+		flex: 0 0 60%;
+		padding-top: 70px;
+	}
+	&__title {
+		font-weight: 500;
+		font-size: 48px;
+		line-height: 56px;
+		text-transform: capitalize;
+		margin-bottom: 20px;
+	}
+	&__descr {
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 27px;
+		margin-bottom: 40px;
+	}
+	&__img {
+		flex: 0 0 40%;
+	}
+	&__photo {
+		width: 100%;
+	}
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	height: 70px;
+	flex: 1 1 auto;
+	&__logo {
+		width: 100%;
+	}
+}
+.nav {
+	&__list {
+		display: flex;
+		align-items: center;
+		list-style: none;
+		gap: 50px;
+		margin-top: 16px;
+	}
+	&__link {
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 19px;
+		text-decoration: none;
+		color: $title-color;
+		transition: all 0.3s;
+		&:hover {
+			color: $second-color;
+		}
+	}
+}
